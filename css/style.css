@@ -10,6 +10,10 @@ h2{
     color:rgb(3, 27, 78) ;
 }
 
+.small-text{
+    font-size: 12px;
+    margin-top: 10px;
+}
 
 /*HEADER*/
 
@@ -69,8 +73,26 @@ header .menu-right{
 .jumbotron .teaser-right{
     background-color: white;
     border-radius: 5px;
+    padding: 20px 10px;
 }
 
 .jumbotron .teaser-right small{
     color:#33adff ;
 }
+
+form .btn_form{
+    color: white;
+    background-color:#33adff ;
+}
+
+form .btn_google{
+    position: relative;
+}
+
+form img{
+    height: 23px;
+    position: absolute;
+    left: 2px;
+}
+
+/*FINE HEADER*/
