@@ -1,0 +1,36 @@
+/*COMMON*/
+
+.btn_generic{
+    background-color: white;
+    border: 1px solid #4fa0d6;
+    color: #4fa0d6;
+}
+
+
+/*HEADER*/
+
+
+header .header-nav img{
+    height: 30px;
+    margin: 10px;
+}
+
+header .menu-left,
+header .menu-right{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+header .menu-left li,
+header .menu-right li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+header .menu-left li a,
+header .menu-right li a{
+    text-decoration: none;
+    color: rgb(3, 27, 78);
+}
