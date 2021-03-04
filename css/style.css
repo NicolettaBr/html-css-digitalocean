@@ -196,7 +196,8 @@ form img{
     color: gray;
 }
 
-.box-tools p{
+.box-tools p,
+.box-slider p{
     color: gray;
 }
 
@@ -215,33 +216,74 @@ form img{
     padding: 0 10px;
 }
 
-.box-section{
-    margin: 70px 0;
-    padding: 0 180px;
+.box-slider{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    padding: 0 300px;
     position: relative;
 }
 
-.box-section .fa-chevron-left{
+.box-slider .fa-chevron-left{
     position:absolute;
     top: 50%;
-    right: 90%;
+    right: 80%;
     transform: translate(-50%, -50%);
 }
 
-.box-section .fa-chevron-right{
+.box-slider .fa-chevron-right{
     position:absolute;
     top: 50%;
-    left: 90%;
+    left: 80%;
     transform: translate(-50%, -50%);
 }
 
-.fa-chevron-left,
-.fa-chevron-right{
+.box-slider .fa-chevron-left,
+.box-slider .fa-chevron-right{
     color: rgb(3, 27, 78) ;
     font-size: 25px;
 }
 
+.menu-slider{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-slider li{
+    display: inline-block;
+    padding: 4px;
+   
+}
+
+.menu-slider li a{
+    text-decoration: none;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color:white ;
+    border: 1px solid #33adff;
+    border-radius: 50%;
+  
+}
+
+.menu-slider li:first-child a{
+    background-color: #33adff;
+}
+
 /*fine design-section*/
+
+/*features-section*/
+
+.box-features{
+    margin: 50px auto;
+}
+
+.box-features h2,
+.design-section h2{
+    margin-bottom: 35px;
+}
+
+/*fine features-section*/
 
 
 
