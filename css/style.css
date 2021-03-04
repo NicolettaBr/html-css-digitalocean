@@ -169,11 +169,11 @@ form img{
 
 /*MAIN*/
 
-/*deploy-section*/
-
-.deploy-section{
+.main-space{
     padding: 40px 0;
-}
+} 
+
+/*deploy-section*/
 
 .deploy-tools{
     margin-top: 30px;
@@ -203,6 +203,47 @@ form img{
 .box-tools{
     padding-bottom: 15px;
     padding-left: 30px;
-
 }
+
+/*design-section*/
+
+.design-section{
+    background-color:rgba(243,245,249,1) ;
+}
+
+.box-img-design img{
+    padding: 0 10px;
+}
+
+.box-section{
+    margin: 70px 0;
+    padding: 0 180px;
+    position: relative;
+}
+
+.box-section .fa-chevron-left{
+    position:absolute;
+    top: 50%;
+    right: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.box-section .fa-chevron-right{
+    position:absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-chevron-left,
+.fa-chevron-right{
+    color: rgb(3, 27, 78) ;
+    font-size: 25px;
+}
+
+/*fine design-section*/
+
+
+
+
 /*FINE MAIN*/
