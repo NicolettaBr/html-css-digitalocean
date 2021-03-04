@@ -32,8 +32,6 @@ main h3{
 }
 
 
-
-
 /*HEADER*/
 
 /*top-nav*/
@@ -312,11 +310,42 @@ form img{
     border-bottom: 1px solid white;
     padding: 15px 0;
 }
-
-
-
-
 /*fine customers-section*/
+
+/*stories-section*/
+
+.stories-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(243,245,249,1);
+   
+}
+
+.slider-stories{
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.slider-stories img{
+    padding-top: 50px ;
+    width: 60%;
+    height: auto;
+}
+
+.slider-stories .p{
+    padding: 20px auto;
+}
+
+address strong{
+    color: black;
+}
+
+.box-slider .menu-slider{
+    margin-top: 15px;
+}
+/*fine stories-section*/
 
 
 
