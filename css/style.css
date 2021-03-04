@@ -11,7 +11,9 @@ h2{
 }
 
 .main-text{
-    color: #ded9d9;
+    color: gray;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .small-text{
@@ -23,6 +25,15 @@ h2{
 a{
     color: #33adff;
 }
+
+main h3{
+    color:rgb(3, 27, 78);
+    font-size: 17px;
+}
+
+
+
+
 /*HEADER*/
 
 /*top-nav*/
@@ -104,6 +115,9 @@ form img{
     left: 2px;
 }
 
+.teaser-left p{
+    color: #ded9d9;
+}
 /*platforms*/
 
 .platforms{
@@ -150,4 +164,45 @@ form img{
         padding: 0 5px;
     }
 }
+
 /*FINE HEADER*/
+
+/*MAIN*/
+
+/*deploy-section*/
+
+.deploy-section{
+    padding: 40px 0;
+}
+
+.deploy-tools{
+    margin-top: 30px;
+}
+
+.deploy-menu{
+    list-style-type: none;
+    margin-left: 0;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+.deploy-menu li{
+    border-left: 1px solid gray;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.deploy-menu li a{
+    color: gray;
+}
+
+.box-tools p{
+    color: gray;
+}
+
+.box-tools{
+    padding-bottom: 15px;
+    padding-left: 30px;
+
+}
+/*FINE MAIN*/
