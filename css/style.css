@@ -10,11 +10,19 @@ h2{
     color:rgb(3, 27, 78) ;
 }
 
+.main-text{
+    color: #ded9d9;
+}
+
 .small-text{
     font-size: 12px;
     margin-top: 10px;
+    color: gray;
 }
 
+a{
+    color: #33adff;
+}
 /*HEADER*/
 
 /*top-nav*/
@@ -60,6 +68,7 @@ header .menu-right{
 .jumbotron{
     background-image: url(../img/ms-jumbo.jpg);
     background-size: cover;
+    margin-bottom: 0;
 }
 
 #title{
@@ -95,4 +104,50 @@ form img{
     left: 2px;
 }
 
+/*platforms*/
+
+.platforms{
+    background-color: rgba(243,245,249,1);
+}
+.box-platforms{
+    padding: 20px;
+}
+
+.box-platforms .intro-platforms-text{
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: gray;
+    font-size: 13px;
+}
+
+.platforms .menu-img{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+.platforms .menu-img li{
+    display: inline-block;  
+}
+
+@media screen and (max-width:767px){
+    .platforms .menu-img li{
+        width: calc( (100% / 2) - 4px);
+    }
+    .platforms .menu-img li img{
+        width: 100%;
+        padding: 0 5px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .platforms .menu-img li{
+        width: calc( (100% / 6) - 4px);
+    }
+    .platforms .menu-img li img{
+        width: 100%;
+        padding: 0 5px;
+    }
+}
 /*FINE HEADER*/
