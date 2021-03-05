@@ -427,5 +427,50 @@ footer{
     color: white;
 }
 
-
 /*FINE FOOTER*/
+
+/*FIXED ELEMENT*/
+
+.fixed-box{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.fixed-box img{
+    height: 60px;
+    display: inline-block;
+}
+
+.fixed-box .chat-box{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    color: black;
+    margin-top: 3px;
+}
+
+.box-img-fixed{
+    text-align: right;
+}
+
+.fixed-text{
+    font-size: 12px;
+    text-align: left;
+}
+
+@media screen and (max-width:767px){
+    .fixed-box{
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .box-img-fixed{
+        text-align: left;
+    }
+
+    .fixed-box .chat-box{
+        width: 40%;
+    }
+}
