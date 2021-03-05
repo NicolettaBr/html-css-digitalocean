@@ -329,13 +329,14 @@ form img{
 }
 
 .slider-stories img{
-    padding-top: 50px ;
+    padding-top: 50px;
+    padding-bottom: 15px;
     width: 60%;
     height: auto;
 }
 
 .slider-stories .p{
-    padding: 20px auto;
+    margin: 40px auto;
 }
 
 address strong{
@@ -347,7 +348,24 @@ address strong{
 }
 /*fine stories-section*/
 
+/*start-section*/
 
+.start-section{
+    background-color: #054cff;
+    padding: 30px 0;
+}
 
+.start-section h2{
+    color: white;
+}
+
+.btn-account{
+    background-color: white;
+    color: #33adff ;
+    border: 1px solid #33adff;
+    margin: 15px 0;
+}
+
+/*fine start-section*/
 
 /*FINE MAIN*/
