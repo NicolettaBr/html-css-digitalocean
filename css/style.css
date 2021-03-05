@@ -339,7 +339,7 @@ form img{
     margin: 40px auto;
 }
 
-address strong{
+.slider-stories address strong{
     color: black;
 }
 
@@ -369,3 +369,63 @@ address strong{
 /*fine start-section*/
 
 /*FINE MAIN*/
+
+/*FOOTER*/
+
+footer{
+    background-color:rgb(3, 27, 78) ;
+    color: #ded9d9;
+    padding: 40px 0;
+}
+
+.menu-footer-left{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-footer-left li img{
+    width: 40px;
+}
+
+.menu-footer-left li address{
+    color:  #ded9d9;
+    margin: 10px auto;
+}
+
+.sublist-footer-left,
+.sublist-footer-right{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sublist-footer-left li{
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 7px;
+}
+
+.sublist-footer-left li a{
+    font-size: 20px;
+    color:  #ded9d9;
+}
+
+.box-footer-left{
+    margin-bottom: 20px;
+}
+
+.sublist-footer-right{
+    margin-bottom: 20px ;
+}
+
+.sublist-footer-right li{
+    padding-bottom: 5px;
+}
+
+.sublist-footer-right strong{
+    color: white;
+}
+
+
+/*FINE FOOTER*/
